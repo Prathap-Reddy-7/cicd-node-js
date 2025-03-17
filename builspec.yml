@@ -13,7 +13,6 @@ phases:
      commands:
      - echo "we are in build phase"
      - echo "we will run grep command to find"
-     - grep  -Fq "congratulations" index.html
      post_build:
      commands:
      - echo "we are in post-build phase"
