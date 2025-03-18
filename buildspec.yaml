@@ -5,14 +5,14 @@ phases:
      runtime-versions:
       node.js: latest
      commands:
-     - echo "installing......"
+     -echo "installing......"
      pre_build:
      commands:
-     - echo "we are in pre-build phase"
+     -echo "we are in pre-build phase"
      build:
      commands:
-     - echo "we are in build phase"
-     - echo "we will run grep command to find"
+     -echo "we are in build phase"
+     -echo "we will run grep command to find"
      post_build:
      commands:
-     - echo "we are in post-build phase"
+     -echo "we are in post-build phase"
